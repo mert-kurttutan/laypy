@@ -1,0 +1,9 @@
+[package]
+name = "layout-python"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# add dependex of layout from https://github.com/mert-kurttutan/layout/tree/laypy git repo
+layout-rs = { git = "https://github.com/mert-kurttutan/layout.git", branch = "laypy" }
+pyo3 = "0.25.0"
